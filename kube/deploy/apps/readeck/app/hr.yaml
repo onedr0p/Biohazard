@@ -27,7 +27,7 @@ spec:
           main:
             image: &img
               repository: "codeberg.org/readeck/readeck"
-              tag: "0.12.0@sha256:49e66137269a6f738bbbb28f3a243a9f52a61ef13637ed85153c1e86811c0697"
+              tag: "0.13.1@sha256:6cea2bfd8ceb5e914ea06353abc6b2f9e4865d49c143c940db815db8d18f6236"
             env:
               TZ: "${CONFIG_TZ}"
               READECK_LOG_LEVEL: "info"
